@@ -41,7 +41,7 @@ if st.button("🔎 Search"):
     if query.strip():
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/search",  # "https://odoo-skill-api-1.onrender.com/search",
+                "http://127.0.0.1:8000/search",  # "https://odoo-skill-api.onrender.com",
                 json={"query": query}
             )
 
