@@ -27,8 +27,13 @@ This project provides a FastAPI backend that converts natural language queries i
 ## 🗂️ Project Structure
 
 ├── main.py # FastAPI app
+
 ├── requirements.txt # Dependencies
+
 ├── start.sh # Startup script for Render
+
 ├── .env # Env variables (for local use only)
+
 ├── streamlit_app.py # Frontend
+
 ├── README.md # This file
